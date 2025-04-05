@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:40px;
+    background-color: #5F259F;
+    color: white;
+}
+.nav-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bolder;
+}
+.nav-logo img{
+    width: 150px;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links ul li a:hover{
+   text-decoration: underline;
+   color: #FFFFF4;
+}
+.header{
+    background-color: #5F259F;
+    height: 700px;
+    width: auto;
+}
+
+.text{
+    padding: 40px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.down img{
+    width:30px;
+    
+   }
+.img1{
+    border: 2px solid black;
+    padding:5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+}
+.img2{
+    border: 2px solid white;
+    padding:5px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.hero img{
+    width:350px;
+    transform: rotate(20deg);
+}
+
+.feat{
+    padding: 100px;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feat img{
+    width: 200px;
+}
+
+.rocket{
+    border: 2px solid cornsilk;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;;
+}
+.rocket:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+
+  .b1{
+    font-weight: bolder;
+    padding: 10px;
+  }
+
+  .contact{
+    background-color:#FFFFF4;
+    text-align: center;
+    height: 750px;
+    padding: 170px;
+  }
+ 
+  .ctext{
+    font-size: 40px;
+  }
+  .circle-img {
+    width: 170px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 10px;
+  }
+  .others {
+    display: flex;        
+    justify-content: center; 
+    gap: 50px;           
+    flex-wrap: wrap;      
+    padding: 20px;        
+  }
+  .others img{
+    width: 100px;
+  }
